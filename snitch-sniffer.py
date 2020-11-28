@@ -7,4 +7,6 @@ print("--------------------")
 for k in range(10):
     print("k = ",k)
 
-
+class Player:
+    def __init__(self):
+        self.dice = []
